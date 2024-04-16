@@ -1,0 +1,41 @@
+@define-color color_bg rgba(174, 189, 191, 0.45);
+
+#window {
+    background-color: rgba(0, 0, 0, 0)
+}
+
+box#main {
+    border-radius: 10px;
+    background-color: @color_bg;
+    padding: 10px;
+}
+
+list#main, list#main:hover {
+    background: none;
+    margin-top: 4px;
+}
+
+list#plugin, list#plugin:hover {
+    background: none;
+    border-radius: 0;
+    margin-top: 4px;
+    box-shadow: none;
+}
+
+label#match-desc {
+    font-size: 10px;
+}
+
+label#plugin {
+    font-size: 14px;
+}
+
+box#main {
+    padding: 8px;
+    border-radius: 5px;
+}
+
+row#plugin, row#plugin:hover {
+    background: none;
+    outline: none;
+}

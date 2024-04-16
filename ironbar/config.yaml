@@ -1,0 +1,36 @@
+monitors:
+  DP-3:
+    position: "left"
+    width: 48
+    anchor_to_edges: true
+    icon_theme: Moka
+    start:
+    - type: custom
+      name: tofi
+      bar:
+      - type: button
+        name: tofi-button
+        label: "⍲"
+        on_click: "!anyrun"
+#        on_click: "!~/.config/ironbar/anyrun.sh"
+    - type: launcher
+      icon_size: 48
+      favorites:
+      - Thunar
+      - xfce4-terminal
+      - firefox
+      - Code
+      - discord
+      - steam
+      show_names: false
+      show_icons: true
+    end:
+    - type: tray
+#    - type: script
+#      cmd: checkupdates | wc -l
+#      format: "{}\nUpdates"
+#      show_if:
+#        cmd: "[[ $(checkupdates | wc -l) != 0 ]]"
+#        interval: 1500
+    - type: clock
+      format: "   %a\n %b %d\n  %H:%M"

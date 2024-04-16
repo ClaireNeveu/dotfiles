@@ -1,0 +1,63 @@
+@define-color color_bg rgba(174, 189, 191, 0.45);
+
+.background {
+    background-color: @color_bg;
+    background-image: none;
+    box-shadow: none;
+}
+
+#tofi-button {
+    color: rgb(235, 245, 255);
+    border: none;
+    background: none;
+    box-shadow: none;
+    text-shadow: 0 -2px 0 rgba(0,0,0,0.5);
+}
+#tofi-button:hover {
+    box-shadow: inset 0 -10px 10px rgba(255,255,255,0.25);
+}
+
+#tofi {
+    font-size: 60px;
+    margin-top: -25px;
+    margin-bottom: -15px;
+}
+
+.launcher .item {
+    border: none;
+    background: none;
+    box-shadow: none;
+    padding: 6px 0;
+    border-radius: 0%;
+    icon-shadow: none;
+}
+
+.launcher .item:hover, .launcher .item.open:hover {
+    box-shadow: inset 0 -10px 10px rgba(255,255,255,0.25);
+}
+
+.launcher .item.open {
+    background: linear-gradient(90deg, rgba(221,221,221,0.1) 20%, @color_bg 100%);
+    /*background: @bg_color;
+    background: radial-gradient(circle, rgba(0,194,233,0.65) 0%, @bg_color 70%);*/
+}
+
+.clock {
+    color: rgb(235, 245, 255);
+    font-size: 12px;
+    border: none;
+    background: none;
+    box-shadow: none;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
+    border-radius: 0;
+}
+
+.clock:hover {
+    box-shadow: inset 0 -10px 10px rgba(0,0,0,0.2);
+}
+
+.tray {
+    box-shadow: none;
+}
+
+/* https://gitlab.gnome.org/GNOME/gtk/-/blob/gtk-3-22/gtk/theme/Adwaita/_colors-public.scss */
