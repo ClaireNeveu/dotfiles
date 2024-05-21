@@ -16,7 +16,7 @@ monitors:
     - type: launcher
       icon_size: 48
       favorites:
-      - Thunar
+      - thunar
       - xfce4-terminal
       - firefox
       - Code
@@ -33,4 +33,4 @@ monitors:
 #        cmd: "[[ $(checkupdates | wc -l) != 0 ]]"
 #        interval: 1500
     - type: clock
-      format: "   %a\n %b %d\n  %H:%M"
+      format: "    %a\n %b %d\n  %H:%M"

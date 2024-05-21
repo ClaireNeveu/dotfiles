@@ -1,4 +1,4 @@
-@define-color color_bg rgba(174, 189, 191, 0.45);
+@define-color color_bg rgba(174, 189, 191, 0.45); /* #aebdbf */
 
 .background {
     background-color: @color_bg;
